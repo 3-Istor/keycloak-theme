@@ -16,7 +16,7 @@
   "dependencies": {
     "@oussemasahbeni/keycloakify-login-shadcn": "^250004.0.20",
     "keycloakify": "^11.15.3",
-    "react": "^19.2.4",
+    "react": "^19.2.5",
     "react-dom": "^19.2.4",
     "@keycloakify/login-ui": "~250004.6.5",
     "@radix-ui/react-checkbox": "^1.3.3",
