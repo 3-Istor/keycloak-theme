@@ -210,7 +210,6 @@ export function Template(props: {
                                                 </AlertDescription>
                                             </Alert>
                                         )}
-                                    {socialProvidersNode}
                                     {children}
                                     {auth !== undefined &&
                                         auth.showTryAnotherWayLink && (
@@ -245,6 +244,7 @@ export function Template(props: {
                                                 </div>
                                             </form>
                                         )}
+                                    {socialProvidersNode}
                                     {displayInfo && (
                                         <div className="text-center text-sm">
                                             {infoNode}
